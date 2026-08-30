@@ -9,13 +9,6 @@ public class Test {
         
         Shape S2 = new Triangle("White",6,7);
         
-        //System.out.println(S.GetArea());
-        
-       // System.out.println(S1.GetArea());
-        
-       // System.out.println(S2.GetArea());
-        
-        
         Shape[] Shape= new Shape[3];
         
         Shape[0]=S;
@@ -29,6 +22,7 @@ public class Test {
             System.out.println(Shape[i].toString());
             
             System.out.println("Area is : " +Shape[i].GetArea());
+            
         }
     }
     
